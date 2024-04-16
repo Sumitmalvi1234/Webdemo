@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Admission Form</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    table tr td{
+      padding-right: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Project -->
+  <script src="main.js"></script>
+
+ <fieldset>
+   
+ <header>
+    <h1>Student admission form</h1>
+  </header>
+ 
+    <marquee behavior="" direction=""><h2>PLEASE FILL IN CAPITAL LETTERS  OR USE UPPERCASE WHILE FILLING FORM</h2></marquee>
+ <div>
+   <form autocomplete="on"></form>
+   <fieldset>
+<legend><h2>students information</h2></legend>
+   <fieldset>
+     
+    <table>
+       <tr>
+         <td>
+       <input type="text" id="fname"name="fname"value=""required><br>
+        <label for="Fname">First name</label>
+            <td>
+        <input type="text" id="mname"name="mname"value=""required><br>
+        <label for="mname">middle name</label>
+            <td>
+         <input type="text" id="lname" name="lname" value="" required><br>
+         <label for="lname">last name</label> </td><br>
+              </tr>
+              </table>
+              <br>
+          <label for="Dob">Date of birth</label>
+          <input type="date" name="Dob" id="Dob">
+              &nbsp;&nbsp;
+   <!-- <label for="gender">Gender</label>
+          <input type="" name="gender" id="gender">-->
+              &nbsp;&nbsp;
+           
+          <select name="gender" id="gender">
+            <option value="selectgender">select gender</option>
+         <option value="male">male</option>
+         <option value="female">female</option>
+         <option value="other">other</option>
+              </select>
+              <br>
+              <label for="course">choose course:</label>
+              <select name="course" id="course">course
+              <option value="Mcom cm">Mcom cm</option>
+              <option value="Mca">Mca</option>
+              </select></fieldset> 
+              <br>
+              <fieldset>
+  <legend><h2>Documents upload</h2></legend>
+                <fieldset>
+                 
+                <label for="marksheet">graduation marksheet</label><br>
+                <input type="file" id="marksheet" name="marksheet"required><br>
+                  <label for="Aadhar">Aadhar card</label><br>
+                <input type="file" id="Aadhar" name="Aadhar"required><br>
+      <label for="birth certificate">birth certificate</label><br>
+                <input type="file" id="birth" name="birth"required><br><br>
+              </fieldset></fieldset> 
+              
+              
+              <fieldset>
+<legend><h2>Contact Information</h2></legend>
+<fieldset>
+ <label for="add">Mailing address</label><br>
+                <textarea name="address" id="address" cols="30" rows="3"></textarea>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email"><br>
+              
+
+
+ 
+ <br>
+  <label for="mobile">phone number</label>
+  <input type="tel" id="mobile" name="mobile" size="10"></fieldset>
+   </fieldset>
+<!-- <ul>
+   <img src="../images.jpeg" alt="./">
+   <li>Home</li>
+   <li>Instagram</li>
+   <li>reels</li>
+   <li>Facebook</li>
+ </ul>-->
+  </fieldset> 
+ &nbsp;&nbsp; <button type="submit" class="btn1" id="submit">submit</button>
+  &nbsp;&nbsp;<button type="reset" class="btn1" id="reset">Reset</button>
+  
+  </fieldset>
+ </fieldset>
+<footer>
+  <marquee behavior=""Note: Last date of Admission is 15th April."" direction=""Note: Last date of Admission is 15th April.""><h3>"Note: Last date of Admission is 15th April."</h3></marquee>
+</footer>
+   </div>
+</body>
+</html>
